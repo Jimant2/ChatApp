@@ -1,1 +1,21 @@
 # ChatApp
+This is my Android Project. I will be making a simple chat application, similar Messanger, WhatsApp etc. The idea is that a person will enter the app either as a guest or log in with their account and hold conversations with other users in the app. The requirements are as follows:
+
+MUST HAVE:
+
+The app must have the option to let the users enter either with their account
+The app must have the option for users to send and receive messages in a common chat area, as well as to other users privately.
+
+SHOULD HAVE:
+The app should have a list (as a sidebar) in which all the users, as well as guests are being displayed. 
+The app should be able to allow users to use emojis.
+
+COULD HAVE:
+
+The app could have the option for the registered users to edit their profile with their personal information, like name, age, email etc. 
+The app could have the option for registered users to set their status as online or offline. 
+The app could have the option for registered users to send friend requests to each other.
+
+WON'T HAVE: 
+The app won't include image support. 
+The app won't have support for voice messages or videos/gifs.
