@@ -15,7 +15,7 @@ COULD HAVE:
 The app could have the option for the registered users to edit their profile with their personal information, like name, age, email etc. 
 The app could have the option for registered users to set their status as online or offline. 
 The app could have the option for registered users to send friend requests to each other.
+The app could allow the users to change their profile image
 
-WON'T HAVE: 
-The app won't include image support. 
+WON'T HAVE:  
 The app won't have support for voice messages or videos/gifs.
