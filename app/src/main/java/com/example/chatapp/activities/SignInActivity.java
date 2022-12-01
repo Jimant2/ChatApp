@@ -33,15 +33,6 @@ public class SignInActivity extends AppCompatActivity {
     private void addDataToDatabase()
     {
         FirebaseFirestore database = FirebaseFirestore.getInstance();
-        HashMap <String, String> data = new HashMap<>();
-        data.put("first name", "Jim");
-        data.put("second name", "Ant");
-        database.collection("users").add(data)
-                .addOnSuccessListener(documentReference -> {
-                    Toast.makeText(getApplicationContext(), "Data added"
-                        , Toast.LENGTH_SHORT).show();})
-                .addOnFailureListener(exception -> {
-                    Toast.makeText(getApplicationContext(), exception.getMessage(), Toast.LENGTH_SHORT).show();
-                });
+
     }
 }
