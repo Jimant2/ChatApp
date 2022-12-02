@@ -51,10 +51,10 @@ public class SignUpActivity extends AppCompatActivity {
         });
     }
 
-    private void showToast(String message)
-    {
-        Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
-    }
+//    private void showToast(String message)
+//    {
+//        Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
+//    }
 
     private void signUp()
     {
@@ -81,7 +81,7 @@ public class SignUpActivity extends AppCompatActivity {
                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(intent);
                 })
-                .addOnFailureListener(exception -> showToast(exception.getMessage()));
+                .addOnFailureListener(exception -> Toast.makeText(getApplicationContext(), exception.getMessage(), Toast.LENGTH_SHORT).show());
     }
 
     private Boolean isValidSignUpData()
@@ -97,17 +97,20 @@ public class SignUpActivity extends AppCompatActivity {
         binding.inputPassword.getText().toString().isEmpty() ||
         binding.inputConfirmPassword.getText().toString().isEmpty())
         {
-            showToast("All fields must be filled");
+            //showToast("All fields must be filled");
+            Toast.makeText(getApplicationContext(), "All fields must be filled", Toast.LENGTH_SHORT).show();
             return false;
         }
         else if(!Patterns.EMAIL_ADDRESS.matcher(binding.inputEmail.getText().toString()).matches())
         {
-            showToast("Enter valid email");
+           // showToast("Enter valid email");
+            Toast.makeText(getApplicationContext(), "Enter valid email", Toast.LENGTH_SHORT).show();
             return false;
         }
         else if(!binding.inputPassword.getText().toString().equals(binding.inputConfirmPassword.getText().toString()))
         {
-            showToast("Passwords do not match");
+            //showToast("Passwords do not match");
+            Toast.makeText(getApplicationContext(), "Passwords do not match", Toast.LENGTH_SHORT).show();
             return false;
         }
         else
