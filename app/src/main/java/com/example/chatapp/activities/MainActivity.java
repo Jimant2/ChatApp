@@ -51,6 +51,8 @@ public class MainActivity extends AppCompatActivity {
     private void setSignOutListeners()
     {
         binding.imageSignOut.setOnClickListener(v -> signOut());
+        binding.buttonNewChat.setOnClickListener(v ->
+                startActivity(new Intent(getApplicationContext(), UsersActivity.class)));
     }
 
     private void showUserDetails()

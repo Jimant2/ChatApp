@@ -20,16 +20,15 @@ import com.example.chatapp.Utilities.Constants;
 import com.example.chatapp.Utilities.PreferenceManager;
 import com.example.chatapp.ViewModel.AuthImplViewModel;
 import com.example.chatapp.databinding.ActivitySignUpBinding;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
+
 import com.google.firebase.firestore.FirebaseFirestore;
 
-import java.io.ByteArrayInputStream;
+
 import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.HashMap;
-import java.util.Observer;
+
 
 public class SignUpActivity extends AppCompatActivity {
 
