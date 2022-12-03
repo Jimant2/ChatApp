@@ -62,7 +62,7 @@ public class SignUpActivity extends AppCompatActivity {
                 && !binding.inputPassword.getText().toString().trim().isEmpty())
         {
             authImplViewModel.register(binding.inputEmail.getText().toString(),binding.inputPassword.getText().toString());
-            System.out.println("authenticating");
+            System.out.println("authenticating sign up");
         }
 
         //adding user to Cloud Firestore db
