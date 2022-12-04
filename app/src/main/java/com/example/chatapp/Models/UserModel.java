@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class UserModel implements Serializable {
 
-    public String name, email, image;
+    public String name, email, image, id;
 
     public String getName() {
         return name;
