@@ -28,7 +28,7 @@ Out of all these requirements, the following were completed:
 
 1. The app must have the option to let the users sign in with their account. 
 2. The app must have the option for users to send and receive messages to and from other users privately. 
-3. The app should have a list in which all the other registered users are being displayed.
+3. The app should have a list in which all the other registered users are being displayed. 
 4.The app could have the option for registered users to set their status as online or offline.
 
 Video link to the presentation: https://youtu.be/4baNbRI6U08
