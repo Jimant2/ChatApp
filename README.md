@@ -8,13 +8,14 @@ MUST HAVE:
 
 SHOULD HAVE:
 
-1. The app should have a list in which all the other registered users are being displayed. 
+1. The app should have a list in which all the other registered users are being displayed.
 2. The app should allow the users to change their profile image
 
 COULD HAVE:
 
-1.The app could have the option for the registered users to edit their profile with their personal information, like name, age, email etc. 
-2.The app could have the option for registered users to set their status as online or offline. 
+1.The app could have the option for the registered users to edit their profile with their personal information, like name, age, email etc.
+
+2.The app could have the option for registered users to set their status as online or offline.
 3.The app could have the option for registered users to send friend requests to each other.
 4.The app could allow users to use emojis.
 5.The app could have the option to show recent conversations a user previously had with others.
