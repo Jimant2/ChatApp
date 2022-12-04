@@ -8,6 +8,7 @@ The app must have the option to let the users sign in with their account
 The app must have the option for users to send and receive messages to other users privately.
 
 SHOULD HAVE:
+
 The app should have a list in which all the users, as well as other users are being displayed. 
 
 The app could allow the users to change their profile image
