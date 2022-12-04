@@ -11,7 +11,7 @@ SHOULD HAVE:
 
 The app should have a list in which all the other registered users are being displayed. 
 
-The app could allow the users to change their profile image
+The app should allow the users to change their profile image
 
 COULD HAVE:
 
@@ -21,7 +21,7 @@ The app could have the option for registered users to set their status as online
 
 The app could have the option for registered users to send friend requests to each other.
 
-The app should be able to allow users to use emojis.
+The app could allow users to use emojis.
 
 The app could have the option to show recent conversations a user previously had with others.
 
