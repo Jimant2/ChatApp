@@ -3,9 +3,9 @@ This is my Android Project. I will be making a simple chat application, similar 
 
 MUST HAVE:
 
-The app must have the option to let the users sign in with their account
+The app must have the option to let the users sign in with their account.
 
-The app must have the option for users to send and receive messages to other users privately.
+The app must have the option for users to send and receive messages to and from other users privately.
 
 SHOULD HAVE:
 
